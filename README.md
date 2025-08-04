@@ -1,20 +1,13 @@
-#Create Enviroment
-python -m venv env
+#Create Enviroment : python -m venv env
 
-#Activate enviroment
-env|scripts\activate
+#Activate enviroment : env\scripts\activate
 
-#install django
-pip install django
+#install django : pip install django
 
-#Start project
-django-admin startproject project_name
+#Start project : django-admin startproject project_name
 
-#change folder
-cd project_name
+#change folder : cd project_name
 
-#create django app
-python manage.py startapp app_name
+#create django app : python manage.py startapp app_name
 
-#run project
-pyhton manage.py runserver
+#run project : python manage.py runserver
