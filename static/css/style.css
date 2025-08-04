@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
+body {
+    background: #ffe7dc;
+    font-family: 'Arima',;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.peach-card {
+    background: linear-gradient(to bottom right, #ffd5c2, #ffb49a);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    transition: all 0.3s ease;
+
+
+}
+
+.peach-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#modal>div {
+    background: linear-gradient(to bottom right, #ffd5c2, #ffb49a);
+    padding: 20px;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#downloadBtn {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.custom-gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+
+.custom-gradient .navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.custom-gradient .nav-link {
+    color: white !important;
+}
+
+.custom-gradient .nav-link:hover {
+    text-decoration: underline;
+}
+
